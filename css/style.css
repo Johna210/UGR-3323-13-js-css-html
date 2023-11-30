@@ -1,0 +1,267 @@
+body {
+  margin-bottom: 30px;
+  margin-left: 10px;
+  background-color: #111;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+nav {
+  margin: 0 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+  color: #faf9f6;
+}
+nav a:hover {
+  color: #b31312;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav h3 {
+  font-weight: bolder;
+  font-family: "Righteous", sans-serif;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+span {
+  color: #b31312;
+}
+figure {
+  display: flex;
+  justify-content: center;
+}
+.photo {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  text-align: center;
+  font-family: "Righteous", sans-serif;
+}
+
+.description h1 {
+  font-weight: bolder;
+}
+
+.description p {
+  font-weight: 100;
+}
+
+/* About me */
+
+.page-title {
+  color: #b31312;
+  font-family: "Righteous", sans-serif;
+  font-size: xx-large;
+}
+
+.title {
+  text-decoration: underline;
+  text-decoration-color: #b31312;
+  font-family: "Nova Square", sans-serif;
+}
+
+#profile-image {
+  width: 300px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+}
+
+article h1 {
+  text-align: center;
+}
+
+.aboutme {
+  line-height: 1.5;
+}
+
+section ul {
+  line-height: 1.5;
+  list-style-type: none;
+  padding-left: 1.5em;
+}
+
+section ul li:before {
+  content: ">";
+  font-weight: bolder;
+  color: red;
+  font-size: 12px;
+  margin-left: -1.5em;
+  margin-right: 2px;
+  width: 1em;
+  display: inline-block;
+  text-align: center;
+}
+
+/* Portfolio */
+
+main h2 {
+  align-self: center;
+}
+
+main p {
+  line-height: 1.5;
+}
+.portfolio-title {
+  text-decoration: underline;
+  text-decoration-color: #b31312;
+  font-weight: bolder;
+  font-family: "Nova Square", sans-serif;
+}
+.project {
+  width: 350px;
+}
+
+#current {
+  font-style: italic;
+}
+
+/* Resume */
+
+#resume img {
+  width: 350px;
+  height: 500px;
+}
+
+#resume {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.download-button {
+  color: #fff;
+  text-decoration: none;
+  height: 35px;
+  border: 2px solid #b31312;
+  display: flex;
+  align-items: center;
+  padding: 2px;
+  border-radius: 5px;
+  background-color: #111;
+}
+
+.download-button:hover {
+  background-color: #b31312;
+}
+
+/* Hobbies */
+.hobby {
+  width: 350px;
+  height: 300px;
+}
+
+/* Contact */
+.feedback {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#name {
+  width: 300px;
+  height: 30px;
+}
+#email {
+  width: 300px;
+  height: 30px;
+}
+#message {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+input,
+textarea {
+  background-color: #696969;
+  color: #fff;
+  border: none;
+  border-style: none;
+}
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.send a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.send {
+  height: 30px;
+  width: 100px;
+  border: 2px solid #b31312;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.send:hover {
+  background-color: #b31312;
+}
+
+.socials {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.social {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid;
+}
+
+.social a {
+  text-decoration: none;
+  color: white;
+}
+
+#phone {
+  text-decoration: none;
+}
+
+#fb a {
+  color: #3b5998;
+}
+
+#ln a {
+  color: #0077b5;
+}
+
+#tg a {
+  color: #1b92d1;
+}

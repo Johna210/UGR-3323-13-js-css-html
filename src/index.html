@@ -3,12 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Open+Sans:ital,wght@0,700;0,800;1,700&family=Righteous&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
     <title>Homepage</title>
   </head>
   <body>
     <nav>
-      <h3>Yohannes</h3>
-      <ul>
+      <h3><span>Y</span>ohannes</h3>
+      <ul class="links">
         <li><a href="/src/index.html">Home</a></li>
         <li><a href="/src/aboutme.html">About me</a></li>
         <li><a href="/src/portfolio.html">Portfolio</a></li>
@@ -18,18 +25,16 @@
       </ul>
     </nav>
     <main>
-      <figure class="photo">
+      <figure>
         <img
+          class="photo"
           src="/src/images/photo.jpg"
           alt="A personal photo of Yohannes"
-          width="300"
-          height="300"
-          style="border-radius: 50%"
         />
       </figure>
       <div class="description">
-        <h2>Hi, I'm Yohannes Solomon</h2>
-        <h1>A Full-stack Web Developer</h1>
+        <h1>Hi, I'm <span>Yohannes Solomon</span></h1>
+        <h2>A Full-stack Web Developer</h2>
         <p>A passionate Web developer based in Addis Ababa , Ethiopia</p>
       </div>
     </main>

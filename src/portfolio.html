@@ -3,12 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nova+Square&family=Open+Sans:ital,wght@0,700;0,800;1,700&family=Righteous&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
     <title>Portfolio</title>
   </head>
   <body>
     <nav>
-      <h3>Yohannes</h3>
-      <ul>
+      <h3><span>Y</span>ohannes</h3>
+      <ul class="links">
         <li><a href="/src/index.html">Home</a></li>
         <li><a href="/src/aboutme.html">About me</a></li>
         <li><a href="/src/portfolio.html">Portfolio</a></li>
@@ -19,7 +26,7 @@
     </nav>
 
     <main>
-      <h2>Portfolio</h2>
+      <h2 class="page-title">Portfolio</h2>
       <p>
         Check out some of the cool web projects I've built. Each one is a result
         of my hard work and dedication to creating awesome websites. Websites
@@ -28,13 +35,12 @@
 
       <section class="portfolios">
         <div class="portfolio">
-          <h4 class="protfolio-title">A recipe web app</h4>
+          <h4 class="portfolio-title">A recipe web app</h4>
           <figure>
             <img
+              class="project"
               src="/src/images/recipes.png"
               alt="An image of a recipe website"
-              width="300"
-              height="300"
             />
           </figure>
           <p>
@@ -45,13 +51,12 @@
         </div>
 
         <div class="portfolio">
-          <h4 class="protfolio-title">A live score football web app.</h4>
+          <h4 class="portfolio-title">A live score football web app.</h4>
           <figure>
             <img
               src="/src/images/livescore.png"
               alt="An image of a football livescore app"
-              width="300"
-              height="300"
+              class="project"
             />
           </figure>
           <p>
@@ -60,13 +65,12 @@
         </div>
 
         <div class="portfolio">
-          <h4>A library Managemet web application</h4>
+          <h4 class="portfolio-title">A library Managemet web application</h4>
           <figure>
             <img
               src="/src/images/library.png"
               alt="An image of a library management application"
-              width="300"
-              height="300"
+              class="project"
             />
           </figure>
           <p>
@@ -76,15 +80,14 @@
         </div>
       </section>
 
-      <p>Currently working on</p>
+      <p id="current">Currently working on <span>...</span></p>
       <div class="portfolio">
-        <h4>A finance tracker web application</h4>
+        <h4 class="portfolio-title">A finance tracker web application</h4>
         <figure>
           <img
             src="/src/images/Finance.png"
             alt="An image of a finance tracker web application"
-            width="300"
-            height="300"
+            class="project"
           />
         </figure>
 
