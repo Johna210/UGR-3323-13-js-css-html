@@ -13,28 +13,46 @@
     <title>About me</title>
   </head>
   <body>
-    <nav>
-      <h3><span>Y</span>ohannes</h3>
-      <ul class="links">
-        <li><a href="/src/index.html">Home</a></li>
-        <li><a href="/src/aboutme.html">About me</a></li>
-        <li><a href="/src/portfolio.html">Portfolio</a></li>
-        <li><a href="/src/resume.html">Resume</a></li>
-        <li><a href="/src/hobbies.html">Hobbies</a></li>
-        <li><a href="/src/contact.html">Contact</a></li>
+    <nav class="navigation">
+      <h3 class="navigation__logo">
+        <span class="red-primary">Y</span>ohannes
+      </h3>
+      <ul class="menu">
+        <li>
+          <a class="menu__item menu--color" href="/src/index.html">Home</a>
+        </li>
+        <li>
+          <a class="menu__item menu--color" href="/src/aboutme.html"
+            >About me</a
+          >
+        </li>
+        <li>
+          <a class="menu__item menu--color" href="/src/portfolio.html"
+            >Portfolio</a
+          >
+        </li>
+        <li>
+          <a class="menu__item menu--color" href="/src/resume.html">Resume</a>
+        </li>
+        <li>
+          <a class="menu__item menu--color" href="/src/hobbies.html">Hobbies</a>
+        </li>
+        <li>
+          <a class="menu__item menu--color" href="/src/contact.html">Contact</a>
+        </li>
       </ul>
     </nav>
 
-    <article>
-      <h1 class="page-title">About me</h1>
-      <figure>
+    <article class="aboutme">
+      <h1 class="aboutme__title page-title">About me</h1>
+      <figure class="aboutme__photo">
         <img
           id="profile-image"
           src="/src/images/photo.jpg"
           alt="profile image"
         />
       </figure>
-      <p class="aboutme">
+      <p class="aboutme--description">
         I am a passionate and experienced full-stack web developer with a knack
         for crafting user-centric, high-quality web applications. My expertise
         spans the entire development lifecycle, from conception to deployment,
@@ -43,27 +61,37 @@
         tackle projects of varying complexities.
       </p>
 
-      <section>
+      <section class="history">
         <div id="skills">
-          <h3 class="title">Skills</h3>
-          <ul>
-            <li>Programming Languages: Python, Java, JavaScript, C</li>
-            <li>Front-end development: HTML, CSS, JavaScript, React</li>
-            <li>Back-end development: Node.js, Express</li>
-            <li>Database development: SQL, MySQL, PostgreSQL</li>
-            <li>Version control: Git</li>
-            <li>Problem-solving</li>
+          <h3 class="skills__title title-colors">Skills</h3>
+          <ul class="history__list">
+            <li class="history__list--item">
+              Programming Languages: Python, Java, JavaScript, C
+            </li>
+            <li class="history__list--item">
+              Front-end development: HTML, CSS, JavaScript, React
+            </li>
+            <li class="history__list--item">
+              Back-end development: Node.js, Express
+            </li>
+            <li class="history__list--item">
+              Database development: SQL, MySQL, PostgreSQL
+            </li>
+            <li class="history__list--item">Version control: Git</li>
+            <li class="history__list--item">Problem-solving</li>
           </ul>
         </div>
         <div id="experience">
-          <h3 class="title">Experience</h3>
-          <ul>
-            <li>Over 2 years of experience as a full-stack web developer.</li>
-            <li>
+          <h3 class="experience__title title-colors">Experience</h3>
+          <ul class="history__list">
+            <li class="history__list--item">
+              Over 2 years of experience as a full-stack web developer.
+            </li>
+            <li class="history__list--item">
               Worked on a variety of projects ranging from small to enterprise
               applications.
             </li>
-            <li>
+            <li class="history__list--item">
               I also had the opportunity to work with a variety of clients,
               including startups and non-profits.
             </li>
@@ -71,11 +99,15 @@
         </div>
 
         <div id="education">
-          <h3 class="title">Education</h3>
-          <ul>
-            <li>Primary School - Ethio National School</li>
-            <li>Secondary School - Ethio National School</li>
-            <li>
+          <h3 class="education__title title-colors">Education</h3>
+          <ul class="history__list">
+            <li class="history__list--item">
+              Primary School - Ethio National School
+            </li>
+            <li class="history__list--item">
+              Secondary School - Ethio National School
+            </li>
+            <li class="history__list--item">
               BSc in Software Engineering - Addis Ababa Institue of
               Technology(AAU)
             </li>
